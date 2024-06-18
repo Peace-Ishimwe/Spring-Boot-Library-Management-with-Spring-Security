@@ -1,7 +1,7 @@
-package com.app.librarymanagement.controllers;
+package com.app.librarymanagement.controller;
 
-import com.example.librarymanagement.model.Book;
-import com.example.librarymanagement.service.BookService;
+import com.app.librarymanagement.model.Book;
+import com.app.librarymanagement.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

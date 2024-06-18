@@ -1,4 +1,4 @@
-package com.example.librarymanagement.model;
+package com.app.librarymanagement.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -47,5 +47,15 @@ public class Book {
 
     public void setIsbn(String isbn) {
         this.isbn = isbn;
+    }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", author='" + author + '\'' +
+                ", isbn='" + isbn + '\'' +
+                '}';
     }
 }
